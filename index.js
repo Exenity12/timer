@@ -21,7 +21,6 @@ const createTimerAnimator = (endDate, timer) => {
   if(second < 10) second = "0" + second;
 
   timerEl.innerHTML = `${hours} : ${minutes} : ${second}`
-  console.log(`${hours} часов ${minutes} минут ${second} секунд`);
 };
 
 buttonEl.addEventListener('click', () => {
